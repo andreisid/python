@@ -188,10 +188,9 @@ def create_initial_score(dim):
     """
     function to create a empty score grid
     """
-    init_scores=[]
-    for _ in range(dim):
-        row=[0 for _dummy in range(dim)]
-        init_scores.append(row)
+    init_scores=[[0 for _row in range(dim)]
+                    for _col in range(dim)]
+                
     return init_scores
 
 # Add your functions here.
