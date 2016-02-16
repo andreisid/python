@@ -6,8 +6,7 @@ from bs4 import BeautifulSoup as b
 
 pages = 1  # How many pages should be scraped
 
-#catURL = "http://olx.ro/oferte/q-vinil/"
-catURL = "http://olx.ro/imobiliare/cluj-napoca/q-observator/"
+catURL = "http://olx.ro/imobiliare/bucuresti/q-centru/"
 
 # Links to the Ajax requests
 ajaxNum = "http://olx.ro/ajax/misc/contact/phone/"
