@@ -1,12 +1,6 @@
-OLX.ro scraper 
+#OLX.ro scraper 
 
-prerequisites:
-
-pip install beautifulsoup4
-
-usage: 
-
-chmod +x olx.py
-
-./olx.py
-
+Prerequisites: pip install beautifulsoup4</br>
+Usage: ./olx.py</br>
+Note: Modify catURL to the specific search you want to scrape
+Some modifications are needed in order to bypass webserver restrictions of callnumber/time
